@@ -4,13 +4,13 @@
 This repository contains the source code for DIC.
 
 # Configuration
-python3.7
-PyTorch==1.8.1
-CUDA==11.1
-scipy
-tensorboardX
-h5py
-tqdm
+python3.7,
+PyTorch==1.8.1,
+CUDA==11.1,
+scipy,
+tensorboardX,
+h5py,
+tqdm.
 
 # Usage
 
