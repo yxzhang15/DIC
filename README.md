@@ -13,18 +13,18 @@ h5py,
 tqdm.
 
 # Usage
-
-Train on Unkonwn Samples:
+Training employs the following commands. We utilize DGCNN and the PRNet processed ModelNet40 dataset for this study; the dataset will be downloaded automatically.
+1. Train on Unkonwn Examples:
 ```sh
 CUDA_VISIBLE_DEVICES=0 python main.py --exp_name=1
 ```
 
-Train on Unkonwn Classes:
+2. Train on Unkonwn Classes:
 ```sh
 CUDA_VISIBLE_DEVICES=0 python main.py --unseen=true --exp_name=2
 ```
 
-Train on Noise:
+3. Train on Noise:
 ```sh
 CUDA_VISIBLE_DEVICES=0 python main.py --gaussian_noise=true --clip=0.05 --exp_name=3 
 ```
