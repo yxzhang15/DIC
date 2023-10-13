@@ -1,7 +1,7 @@
 # Constructing Diverse Inlier Consistency for Partial Point Cloud Registration
 
 ## Introduction
-This repository contains the source code for DIC. DIC is a deep-learning method designed for performing rigid partial-partial point cloud registration for objects. 
+This repository contains the source code for our work DIC. DIC is a deep-learning method designed for performing rigid partial-partial point cloud registration for objects. 
 
 # Configuration
 python3.7,
