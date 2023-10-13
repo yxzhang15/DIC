@@ -3,16 +3,22 @@
 ## Introduction
 This repository contains the source code for our work DIC. DIC is a deep-learning method designed for performing rigid partial-partial point cloud registration for objects. 
 
-# Configuration
+## Configuration
 python3.7,
+
 PyTorch==1.8.1,
+
 CUDA==11.1,
+
 scipy,
+
 tensorboardX,
+
 h5py,
+
 tqdm.
 
-# Usage
+## Usage
 Training employs the following commands. We utilize [DGCNN](https://github.com/WangYueFt/dgcnn "") and [PRNet](https://github.com/WangYueFt/prnet "") processed ModelNet40 dataset for this study; the dataset will be downloaded automatically.
 1. Train on Unkonwn Examples:
 ```sh
