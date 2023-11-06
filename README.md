@@ -1,7 +1,7 @@
 # DIC
 
 ## Introduction
-This repository contains the source code for our work DIC. DIC is a deep-learning method designed for performing rigid partial-partial point cloud registration for objects. 
+This repository contains the source code for our work DIC. DIC is a deep-learning method designed for performing rigid partial-partial point cloud registration. 
 
 ## Configuration
 python3.7,
