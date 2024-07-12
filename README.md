@@ -19,7 +19,7 @@ h5py,
 tqdm.
 
 ## Usage
-Training employs the following commands. We utilize [DGCNN](https://github.com/WangYueFt/dgcnn "") and [PRNet](https://github.com/WangYueFt/prnet "") processed ModelNet40 dataset for this study; the dataset will be downloaded automatically.
+Training employs the following commands. 
 1. Train on Unkonwn Examples:
 ```sh
 CUDA_VISIBLE_DEVICES=0 python main.py --exp_name=1
